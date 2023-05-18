@@ -1,0 +1,385 @@
+.bg-color-login {
+  background: linear-gradient(90deg, hsla(246, 100%, 50%, 1) 0%, hsla(0, 100%, 50%, 1) 100%);
+}
+
+.login-central {
+  font-family: arial;
+  width: 100%;
+  height: 100vh;
+  outline: dashed 1px black;
+  /* Center vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child {
+  border: 1px solid white;
+  padding: 3%;
+  border-radius: 10%;
+  background: rgb(255, 255, 255);
+  width: 400px;
+}
+
+.div-border{
+  border: 0.5px solid gray; 
+  float: left; 
+  width: 80%; 
+  padding: 1%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.box {
+  overflow: auto;
+}
+
+.mr-4{
+  margin-right: 4%;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.ml-167 {
+  margin-left: 167px;
+}
+
+.btn-colorBlue {
+  background-color: #012E63;
+}
+
+.sidebar a,
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-container {
+  display: none;
+  padding-left: 8px;
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+  color: #818181;
+}
+
+
+.sidebar {
+  position: fixed;
+  width: 167px;
+  height: 100vh;
+  background: #012E63;
+  overflow-x: hidden;
+
+}
+
+.over:hover{
+  color: grey;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.w-15 {
+  width: 15%;
+}
+.b-none{
+  border: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.backBlue{
+  background-color: #012E63;
+}
+
+.text-re {
+  opacity: 0.7;
+  float: left;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.div-left-anag {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+}
+
+.div-right-anag {
+  float: left;
+  width: 45%;
+}
+
+.div-photo-right {
+  width: 19%;
+  float: right;
+}
+
+.div-left-certificato {
+  float: left;
+  width: 50%;
+  margin-right: 5%;
+
+}
+
+.div-right-note {
+  width: 45%;
+  float: left;
+}
+
+.mb-perso{
+  margin-bottom: 9.7%;
+}
+
+.content {
+  margin-left: 167px;
+  height: auto;
+  width: auto;
+  position: relative;
+  overflow: auto;
+  z-index: 1;
+}
+
+.w-35 {
+  width: 65%;
+}
+
+.info {
+  width: 1440px;
+  height: 300px;
+  position: relative;
+  background: #f55;
+}
+
+.div-agenda {
+  width: 47.9%;
+  float: left;
+  margin-left: 14px;
+  margin-top: 3vh;
+  height: 475px;
+}
+
+.ml-1{
+  margin-left: 1%;
+}
+
+.tabs {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.div-utenti {
+  width: 97%;
+  float: left;
+  margin-left: 14px;
+  margin-top: 3vh;
+  margin-bottom: 5%;
+}
+
+.div-utentiGenerate {
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 3vh;
+  margin-bottom: 5%;
+}
+
+.div-calendar {
+  width: 47.9%;
+  float: right;
+  margin-right: 14px;
+  margin-top: 3vh;
+}
+
+.div-calendar-page{
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 3vh;
+  height: 80;
+}
+
+.div-squadre {
+  width: 27%;
+  float: right;
+  margin-right: 14px;
+  margin-top: 3vh;
+  margin-bottom: 0.5%;
+}
+
+.radius-bord {
+  border-radius: 10%;
+}
+
+.ml-5 {
+  margin-left: 5%;
+}
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  /* Full-height: remove this if you want "auto" height */
+  width: 160px;
+  /* Set the width of the sidebar */
+  position: fixed;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 100;
+  /* Stay at the top */
+  left: 0;
+  /*background-color: ; /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  /*font-size: 25px;*/
+  color: #ffffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.font-standard {
+  font-size: large;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.top-20 {
+  margin-top: 20px;
+}
+
+.top-50 {
+  margin-top: 50px;
+}
+
+/* Progress Bar */
+@keyframes progress {
+  0% {
+    --percentage: 0;
+  }
+
+  100% {
+    --percentage: var(--value);
+  }
+}
+
+@property --percentage {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 0;
+}
+
+[role="progressbar"] {
+  --percentage: var(--value);
+  --primary: #369;
+  --secondary: #adf;
+  --size: 100px;
+  animation: progress 2s 0.5s forwards;
+  width: var(--size);
+  aspect-ratio: 2 / 1;
+  border-radius: 50% / 100% 100% 0 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+[role="progressbar"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(from 0.75turn at 50% 100%, var(--primary) calc(var(--percentage) * 1% / 2), var(--secondary) calc(var(--percentage) * 1% / 2 + 0.1%));
+  mask: radial-gradient(at 50% 100%, white 55%, transparent 55.5%);
+  mask-mode: alpha;
+  -webkit-mask: radial-gradient(at 50% 100%, #0000 55%, #000 55.5%);
+  -webkit-mask-mode: alpha;
+}
+
+[role="progressbar"]::after {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--primary);
+}
+
+#redBg {
+  --primary: red;
+}
+
+#greenBg {
+  --primary: green;
+}
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
